@@ -15,24 +15,11 @@ class Services_Data_ApiData{
             case 'pageone': 
                 return {
                     pageone: {
-                        author: 'liguohui01',
-                        time: '2013-01-01',
-                        authorImg: '',
-                        id: 123,
-                        pic: '',
-                        zhaiyao: '我是摘要。看我看我',
-                        islike: 1,
-                        like: 10,
-                        isstar: 0,
-                        star: 10
+                        a: 2
                     }
                 }
             default: return state;
         }
-        // await ctx.render('index',{
-        //     a:1,
-        //     b:2
-        // });
     }
 }
 

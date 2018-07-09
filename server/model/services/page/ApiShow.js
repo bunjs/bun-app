@@ -5,10 +5,6 @@ class Services_Show_ApiData{
     }
     testfun() {
         return 1;
-        // await ctx.render('index',{
-        //     a:1,
-        //     b:2
-        // });
     }
 }
 

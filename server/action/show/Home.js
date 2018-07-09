@@ -6,8 +6,8 @@ class Home extends bun.$_appname {
     }
     async execute(ctx) {
         await ctx.render('example',{
-            a:1,
-            state:{}
+            message: 'Bunko is ready!',
+            state: {}
         });
     }
 }

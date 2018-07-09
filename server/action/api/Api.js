@@ -13,7 +13,7 @@ class Api extends bun.$_appname {
 
         ctx.body = {
             html: await ctx.renderHtml('example',{
-                a:1,
+                message: 'bunko is ready!',
                 state: state
             }),
             state: state
