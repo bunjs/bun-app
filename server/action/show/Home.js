@@ -6,8 +6,8 @@ class Home extends bun.$_appname {
     }
     async execute(ctx) {
         await ctx.render('example',{
-            message: 'Bunko is ready!',
-            state: {}
+            message: 'Bunjs is ready!!',
+            state: JSON.stringify({})
         });
     }
 }
