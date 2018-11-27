@@ -1,2 +1,2 @@
 # bun-app
-基于koa2的node框架--通用app框架
+基于koa2的node框架--通用app模板
