@@ -1,4 +1,4 @@
-class Home extends bun.$_appname {
+class Home extends bun.class.$_appname {
     constructor() {
         super();
         this.a = 1;

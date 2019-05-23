@@ -4,9 +4,13 @@
             "targets": {
                 "browsers": ["last 2 versions", "safari >= 7"]
             },
-            "modules": 'commonjs', //禁用babel-preset-env的模块化规范转化
+            "corejs": "3.0.0",
+            "modules": false, //禁用babel-preset-env的模块化规范转化
             "debug": false,
             "useBuiltIns": "usage" // 是否开启自动支持 polyfill
         }]
+    ],
+    plugins: [
+        ["@babel/plugin-proposal-decorators", { "legacy": true }]
     ]
 }
