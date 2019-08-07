@@ -1,4 +1,4 @@
-class Services_Show_ApiData{
+class Model_Services_Show_ApiData{
     constructor() {
         this.a = 1;
         
@@ -8,4 +8,4 @@ class Services_Show_ApiData{
     }
 }
 
-module.exports = Services_Show_ApiData;
+module.exports = Model_Services_Show_ApiData;

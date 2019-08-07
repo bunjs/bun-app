@@ -1,15 +1,22 @@
 module.exports = {
 	dirname: __dirname,
 	appname: '$_appname',
+	isbun: true,
+    entry: {
+        index: './src/entry/index.js'
+    },
+    output: './build/static/$_appname',
+    template: '',
 	localStaticDomain: '//localhost:8000',
 	publicStaticDomain: '//gh.bdstatic.com',
+	manifest: true,
 	/**
 	 * 分离
 	 * commons 是否需要提取公共文件（2次以上引入，仅限js）优先级低于libs
 	 * vendors 是否需要提取node_modules中的模块（包含css） 优先级低于commons
 	 * libs
 	 */
-	cacheGroups: 'vendors',
+	cacheGroups: ['vendors', 'commons'],
 	libs: [], // 需要额外打包的公共库
 	uglifyJs: true, // js压缩开关 开发模式下无效
 	optimizeCSS: true, // js压缩开关 开发模式下无效

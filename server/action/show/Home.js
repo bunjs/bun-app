@@ -1,4 +1,4 @@
-class Home extends bun.class.$_appname {
+class Action_Show_Home extends bun.class.$_appname {
     constructor() {
         super();
         this.a = 1;
@@ -12,4 +12,4 @@ class Home extends bun.class.$_appname {
     }
 }
 
-module.exports = Home;
+module.exports = Action_Show_Home;
