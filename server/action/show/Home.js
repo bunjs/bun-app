@@ -1,4 +1,4 @@
-class Action_Show_Home extends bun.class.$_appname {
+class Action_Show_Home extends bun.class['$_appname'] {
     constructor() {
         super();
         this.a = 1;
